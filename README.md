@@ -3,6 +3,10 @@
 Friendly Learning Tools is a project designed to make studying social subjects like **History** and **Literature** more interesting, engaging, and efficient.  
 It combines AI-powered features to help learners condense knowledge, visualize concepts, and enjoy lessons in new interactive formats.
 
+## 👥 Contributors
+
+Special thanks to [Huy Trong Nguyen](https://github.com/nguyenhuytrong) and [Quang Giac Do]() for contributing dedicatedly to this project.
+
 ## Features
 
 ### 🧠 Mindmap Generator
