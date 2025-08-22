@@ -28,3 +28,14 @@ Transform traditional learning into a **friendly, creative, and time-saving expe
 - Add support for more file formats (PDF, DOCX, etc.)  
 - Provide customizable voices and storytelling styles  
 - Build a simple web/mobile app for wider accessibility
+
+## 📞 Contact
+
+For further questions or collaboration:
+- 📧 [Gmail](huynghia05012007@gmail.com)
+- 👨‍💻 [LinkedIn link](https://www.linkedin.com/in/huy-nghia-nguyen-501010333/)
+- 💼 [GitHub link](https://github.com/trongnghia2007)
+
+---
+
+> ✨ Feel free to star ⭐ this repository if you find it helpful!
