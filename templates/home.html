@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | FLTs</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+    <link rel="shortcut icon" href="/static/icon.ico" type="image/x-icon">
+    <script src="/static/script_home.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <br>
+    <nav id="menu-nav">
+        <div><a class="nav" href="{{ url_for('home') }}">Home</a></div>
+        <div><a class="nav" href="{{ url_for('mindmap') }}">Mindmap Generator</a></div>
+        <div><a class="nav" href="{{ url_for('strtell') }}">AI Storytelling</a></div>
+        <div><a class="nav" href="{{ url_for('podcast') }}">Podcast</a></div>
+    </nav>
+    <br><br>
+    <div class="container">
+        <h2>Tình trạng</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Hiện nay, tình trạng học văn và sử trong giới trẻ đang trở thành một vấn đề đáng lo ngại. Nhiều học sinh không còn hứng thú với việc học hai môn này, coi chúng là khô khan, không thực tế, và ít liên quan đến cuộc sống hiện đại. Kết quả là, khả năng tư duy, cảm thụ văn học và hiểu biết về lịch sử dân tộc đang dần bị suy giảm. Nguyên nhân một phần xuất phát từ phương pháp giảng dạy chưa hấp dẫn và thiếu sự kết nối giữa kiến thức trong sách vở với thực tiễn cuộc sống. Nếu không có những cải cách kịp thời, tình trạng này sẽ ảnh hưởng tiêu cực đến việc bảo tồn và phát huy giá trị văn hóa, lịch sử của dân tộc trong tương lai.</p>
+        <br>
+        <h2>Hướng giải quyết</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Nhóm đã lên ý tưởng một trang web có thể giúp học sinh có thể học tập hiệu quả hơn, kết hợp nhiều tính năng để logic hoá bài học, làm bài học sinh động hơn, hoặc giúp việc học tiết kiệm thời gian hơn.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Các công cụ: trình tạo mindmap, AI kể chuyện, và podcast.</p>
+    </div>
+    <br>
+    <hr>
+    <h6 style="text-align:center">FLTs - Friendly Learning Tools</h6>
+</body>
+</html>

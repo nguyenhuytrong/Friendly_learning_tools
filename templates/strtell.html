@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Storytelling | FLTs</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+    <link rel="shortcut icon" href="/static/icon.ico" type="image/x-icon">
+    <script src="/static/script_strtell.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <br>
+    <nav id="menu-nav">
+        <div><a class="nav" href="{{ url_for('home') }}">Home</a></div>
+        <div><a class="nav" href="{{ url_for('mindmap') }}">Mindmap Generator</a></div>
+        <div><a class="nav" href="{{ url_for('strtell') }}">AI Storytelling</a></div>
+        <div><a class="nav" href="{{ url_for('podcast') }}">Podcast</a></div>
+    </nav>
+    <div id="loading-overlay" style="display: none">
+        <div class="loader"></div>
+    </div>
+    <br><br>
+    <h2>AI Storytelling</h2>
+    <section id="data">
+        <section class="anh" style="text-align: center;">
+            <h3>Ảnh</h3>
+            <div id="preview" onclick="document.getElementById('upload-anh').click();"><br><br><br><br><br><p>Nhấn để upload</p></div>
+            <input id="upload-anh" type="file" accept="image/*" style="display: none"/>
+        </section>
+        <section class="vanban" style="text-align: center;">
+            <h3>Văn bản</h3>
+            <textarea id="upload-vanban" style="width: 300px; height: 300px; text-align:start; resize:none;"></textarea>
+            <br>
+        </section>
+    </section>
+    <br>
+    <div id="use-div"><button id="use-button">Tiếp tục</button></div>
+    <br>
+    <div id="result-section"></div>
+</body>
+</html>

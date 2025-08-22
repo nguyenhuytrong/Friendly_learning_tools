@@ -1,0 +1,24 @@
+
+digraph PhuongThucBieuDatTrongVanHoc {
+node [shape=plaintext]
+PhanLoai -> PhuongPhapMieuTa
+PhanLoai -> PhuongPhapDienDat
+PhanLoai -> PhuongPhapTuongTrung
+PhanLoai -> PhuongPhapSoSanh
+
+PhuongPhapMieuTa [label="Phương pháp miêu tả"]
+PhuongPhapMieuTa -> UuDiemMieuTa [label="Uu điểm"]
+PhuongPhapMieuTa -> HanCheMieuTa [label="Hạn chế"]
+
+PhuongPhapDienDat [label="Phương pháp diễn đạt"]
+PhuongPhapDienDat -> UuDiemDienDat [label="Uu điểm"]
+PhuongPhapDienDat -> HanCheDienDat [label="Hạn chế"]
+
+PhuongPhapTuongTrung [label="Phương pháp tượng trưng"]
+PhuongPhapTuongTrung -> UuDiemTuongTrung [label="Uu điểm"]
+PhuongPhapTuongTrung -> HanCheTuongTrung [label="Hạn chế"]
+
+PhuongPhapSoSanh [label="Phương pháp so sánh"]
+PhuongPhapSoSanh -> UuDiemSoSanh [label="Uu điểm"]
+PhuongPhapSoSanh -> HanCheSoSanh [label="Hạn chế"]
+}
